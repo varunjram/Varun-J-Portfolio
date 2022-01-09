@@ -1,2 +1,3 @@
 # Varun J Portfolio
- Main portfolio for showcasing
+
+ Portfolio for showcasing my knowledge towards **Front-End Web-Development.**
