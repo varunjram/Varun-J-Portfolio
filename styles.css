@@ -1,1 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap');
+
+:root {
+
+    --primary-color:   #8FBC8F;
+    --secondary-text-color: #2F4F4F;
+
+    
+}
+
+
+body {
+
+    font-family: 'Spline Sans',sans-serif;
+
+    margin: 10px;
+
+}
+
+hr {
+
+    margin: 1.5rem 0rem;
+}
+
+
+/* @Containers */
+
+.container {
+    padding: 0rem 1rem;
+}
+
+
+.container-center {
+
+    max-width: 650px;
+
+    margin: auto;
+
+}
+
+
+/* @links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.link-primary {
+
+    background-color: var(--primary-color);
+
+    color: var(--secondary-text-color);
+
+    border-radius: 0.75rem;
+
+    /* add bold tag */
+}
+
+
+.link-secondary {
+
+    color: var(--secondary-text-color);
+
+    border: 1px solid var(--primary-color) ;
+
+    border-radius:  0.75em; ;
+
+    /* add bold tag */
+
+}
+
+
+/* @lists */
+
+
+.list-non-bullet {
+
+    list-style: none;
+}
+
+.list-item-inline {
+
+    padding: 0.5rem 0.5rem ;
+
+    display: inline;
+}
+
+/* @navigation */
+
+
+.navigation {
+
+    background-color: var(--primary-color);
+
+    border-radius: 1rem;
+
+    color: var(--secondary-text-color);
+
+}
+
+.navigation .
+
+
+
+
+
+
+
+
+
+
+
+
+
