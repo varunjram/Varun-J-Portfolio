@@ -2,9 +2,11 @@
 
 :root {
 
-    --primary-color:   #8FBC8F;
+    --primary-color:   #82DE73;
     --secondary-text-color: #2F4F4F;
+    --dark-greay: #64748b;
 
+    --lime-green: #ecfccb;
     
 }
 
@@ -12,8 +14,7 @@
 body {
 
     font-family: 'Spline Sans',sans-serif;
-
-    margin: 10px;
+    margin: 0.5px;
 
 }
 
@@ -33,7 +34,6 @@ hr {
 .container-center {
 
     max-width: 650px;
-
     margin: auto;
 
 }
@@ -49,9 +49,7 @@ hr {
 .link-primary {
 
     background-color: var(--primary-color);
-
     color: var(--secondary-text-color);
-
     border-radius: 0.75rem;
 
     /* add bold tag */
@@ -61,9 +59,7 @@ hr {
 .link-secondary {
 
     color: var(--secondary-text-color);
-
     border: 1px solid var(--primary-color) ;
-
     border-radius:  0.75em; ;
 
     /* add bold tag */
@@ -82,7 +78,6 @@ hr {
 .list-item-inline {
 
     padding: 0.5rem 0.5rem ;
-
     display: inline;
 }
 
@@ -92,24 +87,127 @@ hr {
 .navigation {
 
     background-color: var(--primary-color);
-
     border-radius: 1rem;
-
     color: var(--secondary-text-color);
+    padding: 1rem;
 
 }
 
-.navigation .
+.navigation .link {
+
+    color: var(--secondary-text-color);
+}
+
+.navigation .nav-brand {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation .nav-pills {
+
+    text-align: right;
+}
+
+.navigation .link-active {
+
+    font-weight: bold;
+
+}
 
 
+/* header */
+
+.hero {
+
+    padding: 2rem;
+    padding-top: 5em;
+
+}
 
 
+.hero .hero-image {
+
+    max-width: 450px;
+    display: block;
+    margin: auto;
+
+}
 
 
+.hero .hero-heading {
+
+    color: var(--dark-greay);
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+.hero .hero-heading .hero-inverted {
+
+    color: var(--primary-color);
+}
 
 
+/* section */
+
+.section {
+
+    padding: 1.5rem 3rem;
+}
 
 
+.section h1 {
+
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 
+.ls {
 
+    background-color: var(--lime-green)
+}
+
+/* footer */
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: var(--secondary-text-color);
+    border: 1rem;
+
+}
+
+.footer .link {
+    color: var(--secondary-text-color);
+}
+
+.footer .footer-header {
+
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.footer ul {
+
+    /* this is for overwriting browser default padding defination */
+    padding-inline-start: 0px;
+}
+
+
+.text-align-center {
+
+    text-align: center;
+}
+
+.showcase-list {
+
+    padding: 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin: 3rem auto;
+}
