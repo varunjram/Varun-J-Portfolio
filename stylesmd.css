@@ -47,7 +47,7 @@ li {
     padding-bottom: 1rem;
 }
 
-body {
+.bodytxt {
     
     text-align: justify;
 }
@@ -86,4 +86,15 @@ table {
     text-align: justify;
     vertical-align: baseline;
 
+  }
+
+  .ws {
+      margin: 1rem auto;
+  }
+
+  .blogcenterimage {
+
+    max-width: 400px;
+    display: block;
+    margin: auto;
   }
