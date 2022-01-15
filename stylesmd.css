@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap');
+
+:root {
+
+    --primary-color:   #82DE73;
+    --secondary-text-color: #2F4F4F;
+    --dark-greay: #64748b;
+
+    --lime-green: #ecfccb;
+
+    --light-blue: #578fd8;
+
+    
+    
+}
+
+
+body {
+
+    font-family: 'Spline Sans',sans-serif;
+    margin: 0.5px;
+
+}
+
+hr {
+
+    margin: 1.5rem 0rem;
+}
+
+
+.mdheader {
+
+    /* color: var(--dark-greay); */
+    padding-top: 1rem;
+    text-align: center;
+
+}
+
+.mdcontainer-center {
+
+    max-width: 650px;
+    margin: auto;
+
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+body {
+    
+    text-align: justify;
+}
+
+ul {
+    padding-inline-start:15px
+}
+
+.mdlinks {
+
+    text-decoration: none;
+
+    color: var(--light-blue)
+}
