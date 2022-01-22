@@ -1,4 +1,6 @@
-# [Varun J Portfolio] (https://vjram-portfolio-web-dev.netlify.app/) 
+# Varun J Portfolio 
+
+ [click here]((https://vjram-portfolio-web-dev.netlify.app/) )
 
 
 
