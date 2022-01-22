@@ -1,6 +1,6 @@
 # Varun J Portfolio 
 
- [click here]((https://vjram-portfolio-web-dev.netlify.app/) )
+ [click here](https://vjram-portfolio-web-dev.netlify.app/)
 
 
 
