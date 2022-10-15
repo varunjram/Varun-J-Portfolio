@@ -1,227 +1,200 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap");
 
 :root {
+  --primary-color: #82de73;
+  --secondary-text-color: #2f4f4f;
+  --dark-greay: #64748b;
 
-    --primary-color:   #82DE73;
-    --secondary-text-color: #2F4F4F;
-    --dark-greay: #64748b;
-
-    --lime-green: #ecfccb;
-    
+  --lime-green: #ecfccb;
 }
 
-
 body {
-
-    font-family: 'Spline Sans',sans-serif;
-    margin: 0.5px;
-
+  font-family: "Spline Sans", sans-serif;
+  margin: 0.5px;
 }
 
 hr {
-
-    margin: 1.5rem 0rem;
+  margin: 1.5rem 0rem;
 }
-
 
 /* @Containers */
 
 .container {
-    padding: 0rem 1rem;
+  padding: 0rem 1rem;
 }
-
 
 .container-center {
-
-    max-width: 650px;
-    margin: auto;
-
+  max-width: 650px;
+  margin: auto;
 }
-
 
 /* @links */
 
 .link {
-    text-decoration: none;
-    padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
 }
 
 .link-primary {
+  background-color: var(--primary-color);
+  color: var(--secondary-text-color);
+  border-radius: 0.75rem;
 
-    background-color: var(--primary-color);
-    color: var(--secondary-text-color);
-    border-radius: 0.75rem;
-
-    /* add bold tag */
+  /* add bold tag */
 }
-
 
 .link-secondary {
+  color: var(--secondary-text-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.75em;
 
-    color: var(--secondary-text-color);
-    border: 1px solid var(--primary-color) ;
-    border-radius:  0.75em; ;
-
-    /* add bold tag */
-
+  /* add bold tag */
 }
-
 
 /* @lists */
 
-
 .list-non-bullet {
-
-    list-style: none;
+  list-style: none;
 }
 
 .list-item-inline {
-
-    padding: 0.5rem 0.5rem ;
-    display: inline;
+  padding: 0.5rem 0.5rem;
+  display: inline;
 }
 
 /* @navigation */
 
-
 .navigation {
-
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    color: var(--secondary-text-color);
-    padding: 1rem;
-
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: var(--secondary-text-color);
+  padding: 1rem;
 }
 
 .navigation .link {
-
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .navigation .nav-brand {
-
-    font-weight: bold;
-    font-size: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .navigation .nav-pills {
-
-    text-align: right;
+  text-align: right;
 }
 
 .navigation .link-active {
-
-    font-weight: bold;
-
+  font-weight: bold;
 }
-
 
 /* header */
 
 .hero {
-
-    padding: 2rem;
-    padding-top: 5em;
+  padding: 2rem;
+  padding-top: 5em;
 }
-
 
 .hero .hero-image {
-
-    max-width: 450px;
-    display: block;
-    margin: auto;
-
+  max-width: 450px;
+  display: block;
+  margin: auto;
 }
 
-
 .hero .hero-heading {
-
-    color: var(--dark-greay);
-    padding-top: 1rem;
-    text-align: center;
-
+  color: var(--dark-greay);
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .hero .hero-heading .hero-inverted {
-
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
-
 
 /* section */
 
 .section {
-
-    padding: 1.5rem 3rem;
+  padding: 1.5rem 3rem;
 }
-
 
 .section h1 {
-
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-
 .ls {
-
-    background-color: var(--lime-green)
+  background-color: var(--lime-green);
 }
 
 /* footer */
 
-
 .footer {
-    background-color: var(--primary-color);
-    padding: 2rem;
-    text-align: center;
-    color: var(--secondary-text-color);
-    border: 1rem;
-
+  background-color: var(--primary-color);
+  padding: 2rem;
+  text-align: center;
+  color: var(--secondary-text-color);
+  border: 1rem;
 }
 
 .footer .link {
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .footer .footer-header {
-
-    font-weight: bold;
-    font-size: large;
-
+  font-weight: bold;
+  font-size: large;
 }
 
 .footer ul {
-
-    /* this is for overwriting browser default padding defination */
-    padding-inline-start: 0px;
+  /* this is for overwriting browser default padding defination */
+  padding-inline-start: 0px;
 }
 
-
 .text-align-center {
-
-    text-align: center;
+  text-align: center;
 }
 
 .showcase-list {
-
-    padding: 2rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    margin: 1.5rem auto;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  margin: 1.5rem auto;
 }
 
-
 .headingh2-styles {
-
-    color: var(--secondary-text-color);
-    margin: auto;
-
-
+  color: var(--secondary-text-color);
+  margin: auto;
 }
 
 .secondtxtcolor {
-
-    color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
+.tohome {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.readBlog {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  margin-top: 0.5rem;
+}
