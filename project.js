@@ -44,7 +44,7 @@ const projectData = [
     tech: "Vanila JS",
     hostLink: "https://hardcore-pare-689db4.netlify.app/",
     codeLink: "https://github.com/varunjram/Mark-10-Cash-Register-app",
-    classLs: "none",
+    classLs: "ls",
   },
   {
     name: "Incredible india !",
@@ -53,7 +53,7 @@ const projectData = [
     tech: "React.JS",
     hostLink: "https://sdo5v8.csb.app/",
     codeLink: "https://codesandbox.io/s/recommendation-sdo5v8?file=/src/App.js",
-    classLs: "ls",
+    classLs: "none",
   },
   {
     name: "Bon appetit 🍛",
@@ -62,7 +62,7 @@ const projectData = [
     tech: "React.JS",
     hostLink: "https://x3r23.csb.app/",
     codeLink: "https://codesandbox.io/s/x3r23?file=/src/App.js",
-    classLs: "none",
+    classLs: "ls",
   },
   {
     name: "Vulcan Translator",
@@ -71,7 +71,7 @@ const projectData = [
     tech: "Vanila JS",
     hostLink: "https://tranquil-sopapillas-24431b.netlify.app/",
     codeLink: "https://github.com/varunjram/Vulcan-Translator",
-    classLs: "ls",
+    classLs: "none",
   },
   {
     name: "Whant to speak gibberish",
@@ -80,7 +80,7 @@ const projectData = [
     tech: "Vanila JS",
     hostLink: "https://banana-speak-take2.netlify.app/",
     codeLink: "https://github.com/varunjram/neogcamp-bannana-speak",
-    classLs: "none",
+    classLs: "ls",
   },
   {
     name: "One piece Fan ? ",
@@ -89,7 +89,7 @@ const projectData = [
     tech: "node JS",
     hostLink: "https://replit.com/@VarunJayarama/Mark-01-Assignment-OnePiece?embed=1&output=1#index.js?embed=1&output=1",
     codeLink: "https://github.com/varunjram/Mark---01-Assignment-OnePiece-",
-    classLs: "ls",
+    classLs: "none",
   },
   {
     name: "How well do you know me",
@@ -98,7 +98,7 @@ const projectData = [
     tech: "node JS",
     hostLink: "https://replit.com/@VarunJayarama/Mark-01-Do-You-know-varun-J?embed=1&output=1",
     codeLink: "https://github.com/varunjram/Mark---01---Do-You-know-varun-J",
-    classLs: "none",
+    classLs: "ls",
   },
 ];
 
