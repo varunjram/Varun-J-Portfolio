@@ -2,6 +2,33 @@ const projectContainer = document.querySelector("#projectContainer");
 
 const projectData = [
   {
+    name: "Horoscope App",
+    date: "july,2022",
+    narrative: "Horoscope app .built with",
+    tech: "React JS",
+    hostLink: "https://horoscope-reactapp.netlify.app/",
+    codeLink: "https://github.com/varunjram/Horoscope-app",
+    classLs: "none",
+  },
+  {git 
+    name: "Daily Design Challengs",
+    date: "june,2022",
+    narrative: "Css pratice repos. built with",
+    tech: "HTML , CSS",
+    hostLink: "https://8m5i3j.csb.app/",
+    codeLink: "https://codesandbox.io/s/daily-design-challenges-8m5i3j",
+    classLs: "ls",
+  },
+  {
+    name: "Todo app",
+    date: "june,2022",
+    narrative: "simple Todo app with filter.built with",
+    tech: "React JS",
+    hostLink: "https://rysg5e.csb.app/",
+    codeLink: "https://codesandbox.io/s/react-todo-app-working-rysg5e?file=/index.js",
+    classLs: "none",
+  },
+  {
     name: "Profit and loss calculator",
     date: "Febrauary,2022",
     narrative: "Calculator for Traders.built with",
