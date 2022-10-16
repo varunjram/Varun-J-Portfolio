@@ -10,7 +10,7 @@ const projectData = [
     codeLink: "https://github.com/varunjram/Horoscope-app",
     classLs: "none",
   },
-  {git 
+  {
     name: "Daily Design Challengs",
     date: "june,2022",
     narrative: "Css pratice repos. built with",
