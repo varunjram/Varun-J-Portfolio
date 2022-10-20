@@ -42,8 +42,8 @@ const projectData = [
     date: "October,2022",
     narrative: "Calculator for Traders.built with",
     tech: "Vanila JS",
-    hostLink: "https://brave-turing-3398.netlify.app/",
-    codeLink: "https://github.com/varunjram/Mark-14-Profit---loss",
+    hostLink: "https://plaindromebirthday.netlify.app/",
+    codeLink: "https://github.com/varunjram/Palindrome",
     classLs: "none",
   },
   {
