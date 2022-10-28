@@ -2,8 +2,17 @@ const projectContainer = document.querySelector("#projectContainer");
 
 const projectData = [
   {
+    name: "Currency exchange Rate Comparison Chart",
+    date: "October,2022",
+    narrative: "exchange Rate Comparison app .built with",
+    tech: "React JS",
+    hostLink: "https://reactjs-currency-rates-comparisom-app.netlify.app/",
+    codeLink: "https://github.com/varunjram/cur-xchg",
+    classLs: "ls",
+  },
+  {
     name: "Horoscope App",
-    date: "july,2022",
+    date: "July,2022",
     narrative: "Horoscope app .built with",
     tech: "React JS",
     hostLink: "https://horoscope-reactapp.netlify.app/",
@@ -12,7 +21,7 @@ const projectData = [
   },
   {
     name: "Daily Design Challengs",
-    date: "june,2022",
+    date: "June,2022",
     narrative: "Css pratice repos. built with",
     tech: "HTML , CSS",
     hostLink: "https://8m5i3j.csb.app/",
@@ -21,7 +30,7 @@ const projectData = [
   },
   {
     name: "Todo app",
-    date: "june,2022",
+    date: "June,2022",
     narrative: "simple Todo app with filter.built with",
     tech: "React JS",
     hostLink: "https://rysg5e.csb.app/",
