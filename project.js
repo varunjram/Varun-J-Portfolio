@@ -6,7 +6,7 @@ const projectData = [
     date: "October,2022",
     narrative: "exchange Rate Comparison app .built with",
     tech: "React JS",
-    hostLink: "https://reactjs-currency-rates-comparisom-app.netlify.app/",
+    hostLink: "https://reactjs-currency-rates-comparison-app.netlify.app/",
     codeLink: "https://github.com/varunjram/cur-xchg",
     classLs: "ls",
   },
