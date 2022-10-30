@@ -201,3 +201,21 @@ hr {
   margin: auto;
   margin-top: 0.5rem;
 }
+
+.teckstack {
+  display: flex;
+  justify-content: space-around;
+  align-items: centers;
+}
+.teckstack .redux {
+  /* width: auto; */
+}
+
+.teckstack img {
+  width: 5rem;
+  height: auto;
+}
+
+.center-align {
+  text-align: center;
+}
