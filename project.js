@@ -49,7 +49,7 @@ const projectData = [
   {
     name: "Palindrome Birthday",
     date: "October,2022",
-    narrative: "Calculator for Traders.built with",
+    narrative: "Palindrome Birthday checker.built with",
     tech: "Vanila JS",
     hostLink: "https://plaindromebirthday.netlify.app/",
     codeLink: "https://github.com/varunjram/Palindrome",
