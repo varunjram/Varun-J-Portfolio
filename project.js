@@ -110,7 +110,7 @@ const projectData = [
     classLs: "none",
   },
   {
-    name: "Whant to speak gibberish",
+    name: "Want to speak gibberish",
     date: "January, 2022",
     narrative: "My First Java Script app(psss...Take-2) built with",
     tech: "Vanila JS",
